@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            background-color: coral;
+        }
+        .main-contaner{
+            background-color: transparent;
+            display: inline-block;
+        }
+
+        
+        /* CSS for ancter tags (links) */
+        a{
+            display: block;
+            width: 12.25rem;
+            font-size: 25px;
+            text-decoration: none;
+            color: black;
+            padding: 18px 8px;
+        }
+        a:hover{
+            background-color: rgb(75, 75, 75);
+            color: white;
+        }
+        
+        /* CSS for all main links(buttons) */
+        .BUTNS {
+            background-color: transparent;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        .BUTNS:hover{
+            background-color: rgb(255, 109, 56);
+        }
+        .dropdown{
+            display: none;
+            position: absolute;
+            width: 12.3rem;
+            box-shadow: 0px 0px 18px black;
+            z-index: 1;
+        }
+
+        .main-contaner:hover .dropdown{
+            display: block;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="main-contaner">
+            <button type="button" class="BUTNS" id="btn1">Menu</button>
+            <div class="dropdown">
+                <a href="#none">Link-1</a>
+                <a href="#none">Link-2</a>
+                <a href="#none">Link-3</a>
+                <a href="#none">Link-4</a>
+            </div>
+        </div>
+
+        
+        <div class="main-contaner">
+            <button type="button" class="BUTNS" id="btn1">Menu</button>
+            <div class="dropdown">
+                <a href="#none">Link-1</a>
+                <a href="#none">Link-2</a>
+                <a href="#none">Link-3</a>
+                <a href="#none">Link-4</a>
+            </div>
+        </div>
+
+        <div class="main-contaner">
+            <button type="button" class="BUTNS" id="btn1">Menu</button>
+            <div class="dropdown">
+                <a href="#none">Link-1</a>
+                <a href="#none">Link-2</a>
+                <a href="#none">Link-3</a>
+                <a href="#none">Link-4</a>
+            </div>
+        </div>
+
+        <div class="main-contaner">
+            <button type="button" class="BUTNS" id="btn1">Menu</button>
+            <div class="dropdown">
+                <a href="#none">Link-1</a>
+                <a href="#none">Link-2</a>
+                <a href="#none">Link-3</a>
+                <a href="#none">Link-4</a>
+            </div>
+        </div>
+
+        <div class="main-contaner">
+            <button type="button" class="BUTNS" id="btn1">Menu</button>
+            <div class="dropdown">
+                <a href="#none">Link-1</a>
+                <a href="#none">Link-2</a>
+                <a href="#none">Link-3</a>
+                <a href="#none">Link-4</a>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
